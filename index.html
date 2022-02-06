@@ -15,33 +15,35 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header>
+    <header class="site-header">
       <nav>
-        <a class="link" href="./index.html">WebStudio</a>
-        <ul class="list">
-          <li><a class="link" href="./index.html">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="./contacts.html">Контакты</a></li>
+        <a class="logo" href="./index.html"><span class="logo-color-blue">Web</span>Studio</a>
+        <ul class="site-nav">
+          <li><a class="site-nav-link" href="./index.html">Студия</a></li>
+          <li><a class="site-nav-link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="site-nav-link" href="./contacts.html">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="list">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+      <ul class="contact-header-list">
+        <li>
+          <a class="contact-header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="contact-header-link" href="tel:+380991111111">+38 099 111 11 11</a></li>
       </ul>
     </header>
 
     <!-- Уникальный контент -->
     <main>
       <!-- Баннер -->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="banner">
+        <h1 class="banner-header">Эффективные решения для вашего бизнеса</h1>
+        <button class="banner-button" type="button">Заказать услугу</button>
       </section>
 
       <!-- Особенности -->
       <section>
         <h2>Особенности</h2>
-        <ul class="list">
+        <ul>
           <li>
             <h3>Внимание к деталям</h3>
             <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -68,7 +70,7 @@
       <!-- Чем мы занимаемся -->
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul class="list">
+        <ul>
           <li>
             <img
               src="./images/close-up-image-programer-working-his-desk-office_1098-18707.jpg"
@@ -96,7 +98,7 @@
       <!-- Наша команда -->
       <section>
         <h2>Наша команда</h2>
-        <ul class="list">
+        <ul>
           <li>
             <img src="./images/demyanenko.jpg" alt="Игорь Демьяненко" width="270" />
             <h3>Игорь Демьяненко</h3>
@@ -122,19 +124,27 @@
     </main>
 
     <!-- Футер -->
-    <footer>
-      <a class="link" href="./index.html">WebStudio</a>
+    <footer class="site-footer">
+      <a class="logo-footer" href="./index.html">WebStudio</a>
 
       <!-- Контакты -->
-      <address>
-        <ul class="list">
+      <address class="contact-footer">
+        <ul class="contact-footer-list">
           <li>
-            <a class="link" href="https://goo.gl/maps/V5BgEMV831Q8AJGa7"
+            <a class="contact-footer-link" href="https://goo.gl/maps/V5BgEMV831Q8AJGa7"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li>
+            <a class="contact-footer-link opacity-contact-link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-footer-link opacity-contact-link" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
