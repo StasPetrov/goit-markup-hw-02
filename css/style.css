@@ -16,7 +16,7 @@ ol {
 a {
   text-decoration: none;
 }
-/* HAD PROJECT */
+/* HEADER STUDIO */
 .logo {
   color: var(--primary-blue-color);
   font-family: Raleway;
@@ -53,7 +53,7 @@ a {
 .contact-header-list .link:focus {
   color: var(--primary-blue-color);
 }
-/* MAIN PROJECT */
+/* MAIN STUDIO */
 .banner {
   background-color: #2f303a;
 }
@@ -119,6 +119,29 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* FOOTER STUDIO */
+.site-footer {
+  background-color: #2f303a;
+}
+.logo .white {
+  color: var(--primary-white-color);
+}
+.contact-footer-list .link {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.contact-footer-list .link:hover,
+.contact-footer-list .link:focus {
+  color: var(--primary-blue-color);
+}
+.contact-footer-list .transparent {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* PORTFOLIO PAGE MAIN  */
 .portfolio .buttons {
   background-color: #f5f4fa;
   color: inherit;
@@ -146,25 +169,4 @@ a {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-}
-/* FOOTER PROJECT */
-.site-footer {
-  background-color: #2f303a;
-}
-.logo .white {
-  color: var(--primary-white-color);
-}
-.contact-footer-list .link {
-  color: var(--primary-white-color);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.contact-footer-list .link:hover,
-.contact-footer-list .link:focus {
-  color: var(--primary-blue-color);
-}
-.contact-footer-list .transparent {
-  color: rgba(255, 255, 255, 0.6);
 }
