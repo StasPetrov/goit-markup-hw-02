@@ -1,6 +1,7 @@
 :root {
   --primary-white-color: #ffffff;
   --primary-sonic-color: #757575;
+  --primary-blue-color: #2196f3;
 }
 
 body {
@@ -16,43 +17,46 @@ a {
 }
 /* HAD PROJECT */
 .logo {
-  color: #000000;
+  color: var(--primary-blue-color);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo-color-blue {
-  color: #2196f3;
+.logo .black {
+  color: #000000;
 }
-.site-nav-link {
+.site-nav .link {
   color: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav-link:hover,
-.site-nav-link:focus {
-  color: #2196f3;
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-blue-color);
 }
-.contact-header-link {
+.site-nav .current {
+  color: var(--primary-blue-color);
+}
+.contact-header-list .link {
   color: var(--primary-sonic-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.contact-header-link:hover,
-.contact-header-link:focus {
-  color: #2196f3;
+.contact-header-list .link:hover,
+.contact-header-list .link:focus {
+  color: var(--primary-blue-color);
 }
 /* MAIN PROJECT */
 .banner {
   background-color: #2f303a;
 }
-.banner-header {
+.banner-title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -63,7 +67,8 @@ a {
 }
 .banner-button {
   color: var(--primary-white-color);
-  background-color: #2196f3;
+  background-color: var(--primary-blue-color);
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -76,14 +81,61 @@ a {
 .banner-button:focus {
   background-color: #188ce8;
 }
+.peculiarities-list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.peculiarities-list p {
+  color: var(--primary-sonic-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-list p {
+  color: var(--primary-sonic-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* FOOTER PROJECT */
-.contact-footer-link {
+.site-footer {
+  background-color: #2f303a;
+}
+.logo .white {
+  color: var(--primary-white-color);
+}
+.contact-footer-list .link {
   color: var(--primary-white-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.opacity-contact-link {
+.contact-footer-list .link:hover,
+.contact-footer-list .link:focus {
+  color: var(--primary-blue-color);
+}
+.contact-footer-list .opacity {
   color: rgba(255, 255, 255, 0.6);
 }
