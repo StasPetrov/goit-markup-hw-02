@@ -120,6 +120,9 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.team-card {
+  background-color: var(--primary-white-color);
+}
 
 /* FOOTER STUDIO */
 .site-footer {
