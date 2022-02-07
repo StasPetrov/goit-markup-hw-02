@@ -67,7 +67,7 @@ a {
   text-transform: uppercase;
 }
 .banner .buttons {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   color: var(--primary-white-color);
   background-color: var(--primary-blue-color);
   cursor: pointer;
@@ -144,7 +144,7 @@ a {
 }
 /* PORTFOLIO PAGE MAIN  */
 .portfolio .buttons {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   background-color: #f5f4fa;
   color: var(--primary-black-color);
   font-weight: 500;
