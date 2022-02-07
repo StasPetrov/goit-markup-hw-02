@@ -66,7 +66,8 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.banner-button {
+.banner .buttons {
+  font-family: 'Roboto', sans-serif;
   color: var(--primary-white-color);
   background-color: var(--primary-blue-color);
   cursor: pointer;
@@ -78,8 +79,8 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.banner-button:hover,
-.banner-button:focus {
+.banner .buttons:hover,
+.banner .buttons:focus {
   background-color: #188ce8;
 }
 .features-list h3 {
@@ -143,6 +144,7 @@ a {
 }
 /* PORTFOLIO PAGE MAIN  */
 .portfolio .buttons {
+  font-family: 'Roboto', sans-serif;
   background-color: #f5f4fa;
   color: var(--primary-black-color);
   font-weight: 500;
@@ -150,12 +152,12 @@ a {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .portfolio .buttons:hover,
 .portfolio .buttons:focus {
   background-color: var(--primary-blue-color);
   color: var(--primary-white-color);
-  cursor: pointer;
 }
 .portfolio-list h2 {
   color: var(--primary-black-color);
