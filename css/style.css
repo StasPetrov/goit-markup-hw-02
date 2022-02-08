@@ -26,32 +26,32 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo .black {
+.logo-black {
   color: #000000;
 }
-.site-nav .link {
+.site-nav-link {
   color: var(--primary-black-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--primary-blue-color);
 }
-.site-nav .current {
+.site-nav-link.current {
   color: var(--primary-blue-color);
 }
-.contact-header .link {
+.contact-header-link {
   color: var(--primary-sonic-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.14;-
   letter-spacing: 0.02em;
 }
-.contact-header .link:hover,
-.contact-header .link:focus {
+.contact-header-link:hover,
+.contact-header-link:focus {
   color: var(--primary-blue-color);
 }
 /* MAIN STUDIO */
