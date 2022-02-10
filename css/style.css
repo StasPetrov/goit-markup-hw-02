@@ -67,7 +67,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.banner .buttons {
+.banner-buttons {
   font-family: inherit;
   color: var(--primary-white-color);
   background-color: var(--primary-blue-color);
@@ -80,18 +80,18 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.banner .buttons:hover,
-.banner .buttons:focus {
+.banner-buttons:hover,
+.banner-buttons:focus {
   background-color: #188ce8;
 }
-.features-list h3 {
+.features-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.features-list p {
+.features-list-text {
   color: var(--primary-sonic-color);
   font-size: 14px;
   line-height: 1.71;
@@ -107,47 +107,49 @@ a {
 .team {
   background-color: #f5f4fa;
 }
-.team-list h3 {
+.team-card {
+  background-color: var(--primary-white-color);
+}
+.team-card-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-list p {
+.team-card-text {
   color: var(--primary-sonic-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-card {
-  background-color: var(--primary-white-color);
-}
 
 /* FOOTER STUDIO */
 .site-footer {
   background-color: var(--primary-background-color);
 }
-.logo .white {
+.logo-white {
   color: var(--primary-white-color);
 }
-.contact-footer .link {
+.contact-footer-link {
   color: var(--primary-white-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.contact-footer .link:hover,
-.contact-footer .link:focus {
+.contact-footer-link:hover,
+.contact-footer-link:focus,
+.contact-footer-link.transparent:hover,
+.contact-footer-link.transparent:focus {
   color: var(--primary-blue-color);
 }
-.contact-footer .transparent {
+.contact-footer-link.transparent {
   color: rgba(255, 255, 255, 0.6);
 }
 /* PORTFOLIO PAGE MAIN  */
-.portfolio .buttons {
+.portfolio-buttons {
   font-family: inherit;
   background-color: #f5f4fa;
   color: var(--primary-black-color);
@@ -158,19 +160,19 @@ a {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-.portfolio .buttons:hover,
-.portfolio .buttons:focus {
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
   background-color: var(--primary-blue-color);
   color: var(--primary-white-color);
 }
-.portfolio-list h2 {
+.portfolio-card-title {
   color: var(--primary-black-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio-list .description {
+.portfolio-card-description {
   color: var(--primary-sonic-color);
   font-size: 16px;
   line-height: 1.88;
